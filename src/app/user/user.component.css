@@ -1,0 +1,15 @@
+.demo{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.id{
+    margin: 10px 120px;
+}

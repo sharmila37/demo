@@ -1,0 +1,15 @@
+
+<div class="demo">
+    <h2>Todo App</h2>
+  </div>
+  <div class="send">
+    <form [formGroup]="myForm">
+      <input type="text" name="name" formControlName="name">
+      <button type="button" (click)="postform(myForm.value)" class="btn btn-success mx-3">➕</button>
+    </form>
+  </div>
+  <div class="id">
+    <ul *ngFor="let data of Name">
+      <li>{{data.name | json}} <i class="fa-sharp fa-solid fa-trash mx-3" (click)="deleted(dat)">🗑️</i></li>
+    </ul>
+  </div>
